@@ -5,7 +5,7 @@
     "start": "snowpack dev",
     "build": "snowpack build"
   },
-  "dependencies": {
+  "devDependencies": {
     "snowpack": "^3.8.8",
     "@snowpack/plugin-sass": "^1.4.0"
   }
