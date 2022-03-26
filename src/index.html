@@ -64,11 +64,11 @@
             <li>list.</li>
           </ul>
           <pre><code>&lt;ul&gt;
-&lt;li&gt;This&lt;/li&gt;
-&lt;li&gt;is&lt;/li&gt;
-&lt;li&gt;an&lt;/li&gt;
-&lt;li&gt;unordered&lt;/li&gt;
-&lt;li&gt;list.&lt;/li&gt;
+  &lt;li&gt;This&lt;/li&gt;
+  &lt;li&gt;is&lt;/li&gt;
+  &lt;li&gt;an&lt;/li&gt;
+  &lt;li&gt;unordered&lt;/li&gt;
+  &lt;li&gt;list.&lt;/li&gt;
 &lt;/ul&gt;</code></pre>
 
           <ol>
@@ -79,53 +79,82 @@
             <li>list.</li>
           </ol>
           <pre><code>&lt;ol&gt;
-&lt;li&gt;This&lt;/li&gt;
-&lt;li&gt;is&lt;/li&gt;
-&lt;li&gt;an&lt;/li&gt;
-&lt;li&gt;ordered&lt;/li&gt;
-&lt;li&gt;list.&lt;/li&gt;
+  &lt;li&gt;This&lt;/li&gt;
+  &lt;li&gt;is&lt;/li&gt;
+  &lt;li&gt;an&lt;/li&gt;
+  &lt;li&gt;ordered&lt;/li&gt;
+  &lt;li&gt;list.&lt;/li&gt;
 &lt;/ol&gt;</code></pre>
 
           <hr>
           <h2>Forms</h2>
 
-          <p><input type="text" placeholder="Start typing..." /></p>
-          <pre><code>&lt;input type=&quot;text&quot; placeholder=&quot;Start typing...&quot; /&gt;</code></pre>
+          <input type="text" class="form-control" placeholder="Start typing..." />
+          <pre><code>input.form-control</code></pre>
 
-          <p><textarea placeholder="This is a textarea."></textarea></p>
-          <pre><code>&lt;textarea placeholder=&quot;This is a textarea.&quot;&gt;&lt;/textarea&gt;</code></pre>
+          <textarea class="form-control" placeholder="This is a textarea."></textarea>
+          <pre><code>textarea.form-control</code></pre>
 
-          <p>
-            <select>
-              <option>Please select</option>
-              <option>Option 1</option>
-            </select>
-          </p>
-          <pre><code>&lt;input type=&quot;text&quot; placeholder=&quot;Start typing...&quot; /&gt;</code></pre>
-          
+          <select class="form-control">
+            <option>Please select</option>
+            <option>Option 1</option>
+          </select>
+          <pre><code>select.form-control</code></pre>
+
+
+          <div class="form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" checked>
+              Checked checkbox
+            </label>
+          </div>
+          <pre><code>.form-check
+  label.form-check-label
+    input.form-check-input[type="checkbox"][checked]
+    Checkbox label
+</code></pre>
+
+  <div class="form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" checked>
+      Checked radio
+    </label>
+  </div>
+  <div class="form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="radio" name="flexRadioDefault">
+      Unchecked radio
+    </label>
+  </div>
+          <pre><code>.form-check
+  label.form-check-label
+    input.form-check-input[type="radio"][checked]
+    Checkbox label
+</code></pre>
+      
           <hr>
           <h2>Buttons</h2>
 
-          <p><input type="submit" class="primary button" value="Submit" /></p>
-          <pre><code>&lt;input type=&quot;submit&quot; class=&quot;primary button&quot; value=&quot;Submit&quot; /&gt;</code></pre>
+          <p><input type="submit" class="btn btn-primary" value="Submit" /></p>
+          <pre><code>input[type="submit"].btn.btn-primary</code></pre>
 
-          <p><a class="primary button">Primary button</a></p>
-          <pre><code>&lt;a href=&quot;#&quot; class=&quot;primary button&quot;&gt;Primary button&lt;/a&gt;</code></pre>
+          <p><a class="btn btn-primary">Primary button</a></p>
+          <pre><code>.btn.btn-primary</code></pre>
+
+          <p><a class="btn btn-secondary">Secondary button</a></p>
+          <pre><code>.btn.btn-secondary</code></pre>
           
-          <p><a class="secondary button">Secondary button</a></p>
-          <pre><code>&lt;a href=&quot;#&quot; class=&quot;secondary button&quot;&gt;Secondary button&lt;/a&gt;</code></pre>
-
           <hr>
           <h2>Alerts</h2>
 
-          <div class="danger alert">This is a danger alert.</div>
-          <pre><code>&lt;div class=&quot;danger alert&quot;&gt;This is a danger alert.&lt;/div&gt;</code></pre>
+          <div class="alert alert-danger">This is a danger alert.</div>
+          <pre><code>.alert.alert-danger</code></pre>
 
-          <div class="warning alert">This is a warning alert.</div>
-          <pre><code>&lt;div class=&quot;warning alert&quot;&gt;This is a warning alert.&lt;/div&gt;</code></pre>
+          <div class="alert alert-warning">This is a warning alert.</div>
+          <pre><code>.alert.alert-warning</code></pre>
 
-          <div class="success alert">This is a success alert.</div>
-          <pre><code>&lt;div class=&quot;success alert&quot;&gt;This is a success alert.&lt;/div&gt;</code></pre>
+          <div class="alert alert-success">This is a success alert.</div>
+          <pre><code>.alert.alert-success</code></pre>
 
           <hr>
           <h2>Additional Helper Classes (to do)</h2>

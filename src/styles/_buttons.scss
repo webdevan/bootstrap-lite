@@ -1,14 +1,14 @@
-.button {
+.btn {
   padding: 0.5rem 1rem;
   border-radius: 5px;
   border: 1px solid $primary-color;
   cursor: pointer;
   text-decoration: none;
-  &.primary {
+  &.btn-primary {
     background: $primary-color;
     color: white;
   }
-  &.secondary {
+  &.btn-secondary {
     background: transparent;
     color: $primary-color;
   }
