@@ -1,3 +1,14 @@
 .alert {
-  background: red;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: $text-color;
+  &.success {
+    background: rgba($success-color, 0.25);
+  }
+  &.warning {
+    background: rgba($warning-color, 0.25);
+  }
+  &.danger {
+    background: rgba($danger-color, 0.25);
+  }
 }
