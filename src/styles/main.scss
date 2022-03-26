@@ -1,0 +1,50 @@
+$primary-font: arial, sans-serif;
+$primary-color: #5b6abf;
+$text-color: rgba(black, 0.75);
+$muted-color: rgba(black, 0.1);
+
+html {
+  font-size: 18px;
+  color: $text-color;
+  font-family: $primary-font;
+}
+
+a {
+  color: $text-color;
+  text-decoration: underline;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 1rem 0;
+}
+h1 { font-size: 3.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.1rem; }
+h6 { font-size: 1rem; }
+
+p { font-size: 1rem; }
+
+blockquote {
+  margin: 0;
+  padding-left: 2em;
+  border-left: 4px solid $muted-color;
+}
+
+ul, ol {
+  margin: 1rem 0;
+  padding: 0 0 0 1.5em;
+}
+
+hr {
+  border-color: $muted-color;
+}
+
+pre {
+  font-size: 14px;
+  padding: 1rem;
+  background: $muted-color;
+  border-radius: 8px;
+  white-space: break-spaces;
+}
