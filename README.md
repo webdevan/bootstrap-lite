@@ -1,0 +1,1 @@
+Just a simple styleguide template that can be used to kickstart your MVP website styleguide. Because even the smallest website deserves a styleguide.
