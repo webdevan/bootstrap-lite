@@ -1,6 +1,8 @@
-// label {
-//   display: inline-block;
-// }
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 3px;
+}
 
 .form-control {
   line-height: 1.4;
@@ -35,11 +37,12 @@ select.form-control {
   background-size: 16px 12px;
 }
 
-.form-check {
-  .form-check-input {
-    width: 1em;
-    height: 1em;
-    vertical-align: top;
+.checkbox,
+.radio {
+  input {
+    width: 18px;
+    height: 18px;
+    vertical-align: text-bottom;
     background-color: #fff;
     background-repeat: no-repeat;
     background-position: center;
