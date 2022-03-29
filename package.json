@@ -1,5 +1,5 @@
 {
-  "name": "styleguide",
+  "name": "bootstrap-lite",
   "version": "0.0.0",
   "scripts": {
     "start": "snowpack dev",

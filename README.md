@@ -1,1 +1,1 @@
-Just a simple styleguide template that can be used to kickstart your MVP website styleguide. Because even the smallest website deserves a styleguide.
+A "lite" alternative to Bootstrap CSS framework, plus a simple style-guide, to "bootstrap" your SCSS theme development.
